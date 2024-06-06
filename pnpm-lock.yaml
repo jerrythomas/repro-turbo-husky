@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      husky:
+        specifier: ^9.0.11
+        version: 9.0.11
       turbo:
         specifier: latest
         version: 2.0.1
@@ -42,6 +45,11 @@ importers:
   packages/tooling-config: {}
 
 packages:
+
+  husky@9.0.11:
+    resolution: {integrity: sha512-AB6lFlbwwyIqMdHYhwPe+kjOC3Oc5P3nThEoW/AaO2BX3vJDjWPFxYLxokUZOo6RNX20He3AaT8sESs9NJcmEw==}
+    engines: {node: '>=18'}
+    hasBin: true
 
   turbo-darwin-64@2.0.1:
     resolution: {integrity: sha512-GO391pUmI6c6l/EpUIaXNzwbVDWRvYahm5oLB176dAWRYKYO+Osqs/XBdOM0G3l7ZFdR6nUtRJc8qinJp7qDUQ==}
@@ -78,6 +86,8 @@ packages:
     hasBin: true
 
 snapshots:
+
+  husky@9.0.11: {}
 
   turbo-darwin-64@2.0.1:
     optional: true
